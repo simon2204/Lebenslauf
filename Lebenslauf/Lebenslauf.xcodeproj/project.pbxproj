@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F464B54825E989EA008E2422 /* LebenslaufApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F464B53525E989E9008E2422 /* LebenslaufApp.swift */; };
+		F464B54925E989EA008E2422 /* LebenslaufApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F464B53525E989E9008E2422 /* LebenslaufApp.swift */; };
+		F464B54A25E989EA008E2422 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F464B53625E989E9008E2422 /* ContentView.swift */; };
+		F464B54B25E989EA008E2422 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F464B53625E989E9008E2422 /* ContentView.swift */; };
+		F464B54C25E989EA008E2422 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F464B53725E989EA008E2422 /* Assets.xcassets */; };
+		F464B54D25E989EA008E2422 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F464B53725E989EA008E2422 /* Assets.xcassets */; };
+		F464B55925E98DA4008E2422 /* PersonenAngabe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F464B55825E98DA4008E2422 /* PersonenAngabe.swift */; };
+		F464B55A25E98DA4008E2422 /* PersonenAngabe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F464B55825E98DA4008E2422 /* PersonenAngabe.swift */; };
+		F464B56625E9A4F0008E2422 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F464B56525E9A4F0008E2422 /* ImagePicker.swift */; };
+		F464B56725E9A4F0008E2422 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F464B56525E9A4F0008E2422 /* ImagePicker.swift */; };
+		F464B56D25EA7925008E2422 /* ProfilBild.swift in Sources */ = {isa = PBXBuildFile; fileRef = F464B56C25EA7925008E2422 /* ProfilBild.swift */; };
+		F464B56E25EA7925008E2422 /* ProfilBild.swift in Sources */ = {isa = PBXBuildFile; fileRef = F464B56C25EA7925008E2422 /* ProfilBild.swift */; };
+		F464B57525EA7B2C008E2422 /* PflichtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F464B57425EA7B2C008E2422 /* PflichtView.swift */; };
+		F464B57625EA7B2C008E2422 /* PflichtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F464B57425EA7B2C008E2422 /* PflichtView.swift */; };
+		F464B57E25EA7C02008E2422 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F464B57D25EA7C02008E2422 /* CustomTextField.swift */; };
+		F464B57F25EA7C02008E2422 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F464B57D25EA7C02008E2422 /* CustomTextField.swift */; };
+		F464B58325EA7E28008E2422 /* ExportToPDF.swift in Sources */ = {isa = PBXBuildFile; fileRef = F464B58225EA7E28008E2422 /* ExportToPDF.swift */; };
+		F464B58425EA7E28008E2422 /* ExportToPDF.swift in Sources */ = {isa = PBXBuildFile; fileRef = F464B58225EA7E28008E2422 /* ExportToPDF.swift */; };
+		F464B58B25EA7E5A008E2422 /* Anschrift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F464B58A25EA7E5A008E2422 /* Anschrift.swift */; };
+		F464B58C25EA7E5A008E2422 /* Anschrift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F464B58A25EA7E5A008E2422 /* Anschrift.swift */; };
+		F464B59025EA7EBE008E2422 /* FreiwilligView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F464B58F25EA7EBE008E2422 /* FreiwilligView.swift */; };
+		F464B59125EA7EBE008E2422 /* FreiwilligView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F464B58F25EA7EBE008E2422 /* FreiwilligView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F464B53525E989E9008E2422 /* LebenslaufApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LebenslaufApp.swift; sourceTree = "<group>"; };
+		F464B53625E989E9008E2422 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F464B53725E989EA008E2422 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F464B53C25E989EA008E2422 /* Lebenslauf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lebenslauf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F464B53F25E989EA008E2422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F464B54425E989EA008E2422 /* Lebenslauf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lebenslauf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F464B54625E989EA008E2422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F464B54725E989EA008E2422 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		F464B55825E98DA4008E2422 /* PersonenAngabe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonenAngabe.swift; sourceTree = "<group>"; };
+		F464B56525E9A4F0008E2422 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		F464B56C25EA7925008E2422 /* ProfilBild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilBild.swift; sourceTree = "<group>"; };
+		F464B57425EA7B2C008E2422 /* PflichtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PflichtView.swift; sourceTree = "<group>"; };
+		F464B57D25EA7C02008E2422 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		F464B58225EA7E28008E2422 /* ExportToPDF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportToPDF.swift; sourceTree = "<group>"; };
+		F464B58A25EA7E5A008E2422 /* Anschrift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anschrift.swift; sourceTree = "<group>"; };
+		F464B58F25EA7EBE008E2422 /* FreiwilligView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreiwilligView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F464B53925E989EA008E2422 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F464B54125E989EA008E2422 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F464B52F25E989E9008E2422 = {
+			isa = PBXGroup;
+			children = (
+				F464B53425E989E9008E2422 /* Shared */,
+				F464B53E25E989EA008E2422 /* iOS */,
+				F464B54525E989EA008E2422 /* macOS */,
+				F464B53D25E989EA008E2422 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F464B53425E989E9008E2422 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F464B53525E989E9008E2422 /* LebenslaufApp.swift */,
+				F464B53625E989E9008E2422 /* ContentView.swift */,
+				F464B57325EA7AF3008E2422 /* Views */,
+				F464B58925EA7E3B008E2422 /* Model */,
+				F464B58225EA7E28008E2422 /* ExportToPDF.swift */,
+				F464B53725E989EA008E2422 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		F464B53D25E989EA008E2422 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F464B53C25E989EA008E2422 /* Lebenslauf.app */,
+				F464B54425E989EA008E2422 /* Lebenslauf.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F464B53E25E989EA008E2422 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F464B53F25E989EA008E2422 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		F464B54525E989EA008E2422 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				F464B54625E989EA008E2422 /* Info.plist */,
+				F464B54725E989EA008E2422 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		F464B57325EA7AF3008E2422 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F464B56C25EA7925008E2422 /* ProfilBild.swift */,
+				F464B57425EA7B2C008E2422 /* PflichtView.swift */,
+				F464B57D25EA7C02008E2422 /* CustomTextField.swift */,
+				F464B56525E9A4F0008E2422 /* ImagePicker.swift */,
+				F464B58F25EA7EBE008E2422 /* FreiwilligView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F464B58925EA7E3B008E2422 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F464B55825E98DA4008E2422 /* PersonenAngabe.swift */,
+				F464B58A25EA7E5A008E2422 /* Anschrift.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F464B53B25E989EA008E2422 /* Lebenslauf (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F464B55025E989EA008E2422 /* Build configuration list for PBXNativeTarget "Lebenslauf (iOS)" */;
+			buildPhases = (
+				F464B53825E989EA008E2422 /* Sources */,
+				F464B53925E989EA008E2422 /* Frameworks */,
+				F464B53A25E989EA008E2422 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lebenslauf (iOS)";
+			productName = "Lebenslauf (iOS)";
+			productReference = F464B53C25E989EA008E2422 /* Lebenslauf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F464B54325E989EA008E2422 /* Lebenslauf (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F464B55325E989EA008E2422 /* Build configuration list for PBXNativeTarget "Lebenslauf (macOS)" */;
+			buildPhases = (
+				F464B54025E989EA008E2422 /* Sources */,
+				F464B54125E989EA008E2422 /* Frameworks */,
+				F464B54225E989EA008E2422 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lebenslauf (macOS)";
+			productName = "Lebenslauf (macOS)";
+			productReference = F464B54425E989EA008E2422 /* Lebenslauf.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F464B53025E989E9008E2422 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F464B53B25E989EA008E2422 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					F464B54325E989EA008E2422 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = F464B53325E989E9008E2422 /* Build configuration list for PBXProject "Lebenslauf" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F464B52F25E989E9008E2422;
+			productRefGroup = F464B53D25E989EA008E2422 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F464B53B25E989EA008E2422 /* Lebenslauf (iOS) */,
+				F464B54325E989EA008E2422 /* Lebenslauf (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F464B53A25E989EA008E2422 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F464B54C25E989EA008E2422 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F464B54225E989EA008E2422 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F464B54D25E989EA008E2422 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F464B53825E989EA008E2422 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F464B57E25EA7C02008E2422 /* CustomTextField.swift in Sources */,
+				F464B55925E98DA4008E2422 /* PersonenAngabe.swift in Sources */,
+				F464B59025EA7EBE008E2422 /* FreiwilligView.swift in Sources */,
+				F464B57525EA7B2C008E2422 /* PflichtView.swift in Sources */,
+				F464B58325EA7E28008E2422 /* ExportToPDF.swift in Sources */,
+				F464B58B25EA7E5A008E2422 /* Anschrift.swift in Sources */,
+				F464B56625E9A4F0008E2422 /* ImagePicker.swift in Sources */,
+				F464B54A25E989EA008E2422 /* ContentView.swift in Sources */,
+				F464B56D25EA7925008E2422 /* ProfilBild.swift in Sources */,
+				F464B54825E989EA008E2422 /* LebenslaufApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F464B54025E989EA008E2422 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F464B57F25EA7C02008E2422 /* CustomTextField.swift in Sources */,
+				F464B55A25E98DA4008E2422 /* PersonenAngabe.swift in Sources */,
+				F464B59125EA7EBE008E2422 /* FreiwilligView.swift in Sources */,
+				F464B57625EA7B2C008E2422 /* PflichtView.swift in Sources */,
+				F464B58425EA7E28008E2422 /* ExportToPDF.swift in Sources */,
+				F464B58C25EA7E5A008E2422 /* Anschrift.swift in Sources */,
+				F464B56725E9A4F0008E2422 /* ImagePicker.swift in Sources */,
+				F464B54B25E989EA008E2422 /* ContentView.swift in Sources */,
+				F464B56E25EA7925008E2422 /* ProfilBild.swift in Sources */,
+				F464B54925E989EA008E2422 /* LebenslaufApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F464B54E25E989EA008E2422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F464B54F25E989EA008E2422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F464B55125E989EA008E2422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6D674326DK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.googlemail-simon2204s.Lebenslauf";
+				PRODUCT_NAME = Lebenslauf;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F464B55225E989EA008E2422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6D674326DK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.googlemail-simon2204s.Lebenslauf";
+				PRODUCT_NAME = Lebenslauf;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F464B55425E989EA008E2422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6D674326DK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.googlemail-simon2204s.Lebenslauf";
+				PRODUCT_NAME = Lebenslauf;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F464B55525E989EA008E2422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6D674326DK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.googlemail-simon2204s.Lebenslauf";
+				PRODUCT_NAME = Lebenslauf;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F464B53325E989E9008E2422 /* Build configuration list for PBXProject "Lebenslauf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F464B54E25E989EA008E2422 /* Debug */,
+				F464B54F25E989EA008E2422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F464B55025E989EA008E2422 /* Build configuration list for PBXNativeTarget "Lebenslauf (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F464B55125E989EA008E2422 /* Debug */,
+				F464B55225E989EA008E2422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F464B55325E989EA008E2422 /* Build configuration list for PBXNativeTarget "Lebenslauf (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F464B55425E989EA008E2422 /* Debug */,
+				F464B55525E989EA008E2422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F464B53025E989E9008E2422 /* Project object */;
+}
